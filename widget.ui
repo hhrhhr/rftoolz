@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>350</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QComboBox" name="comboBoxSimulatorVersion">
+       <item>
+        <property name="text">
+         <string>G4</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>G5</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>G6</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEditSimulatorKey">
+       <property name="font">
+        <font>
+         <family>Courier New</family>
+        </font>
+       </property>
+       <property name="inputMask">
+        <string>&gt;99999999-A9-9999999999; </string>
+       </property>
+       <property name="text">
+        <string>12345678-G0-1234567890</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonSimulatorKey">
+       <property name="text">
+        <string>Add</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QComboBox" name="comboBoxControllerVersion">
+       <item>
+        <property name="text">
+         <string>I3</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEditControllerKey">
+       <property name="font">
+        <font>
+         <family>Courier New</family>
+        </font>
+       </property>
+       <property name="inputMask">
+        <string>&gt;9999999-A9-999999; </string>
+       </property>
+       <property name="text">
+        <string>1234567-I0-123456</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonControllerKey">
+       <property name="text">
+        <string>Add</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QComboBox" name="comboBoxEPVersion">
+       <item>
+        <property name="text">
+         <string>E1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>E2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>E3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>E4</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>E5</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>E6</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>E7</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>E8</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>A1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>H1</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEditEPKey">
+       <property name="font">
+        <font>
+         <family>Courier New</family>
+        </font>
+       </property>
+       <property name="inputMask">
+        <string>&gt;99999999-A9-9999999999; </string>
+       </property>
+       <property name="text">
+        <string>12345678-E0-1234567890</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonEPKey">
+       <property name="text">
+        <string>Add</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QToolButton" name="toolButtonReloadActivationKey">
+       <property name="text">
+        <string>R</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEditActivationKey">
+       <property name="font">
+        <font>
+         <family>Courier New</family>
+        </font>
+       </property>
+       <property name="inputMask">
+        <string/>
+       </property>
+       <property name="text">
+        <string>0000000000</string>
+       </property>
+       <property name="maxLength">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEditActivationCode">
+       <property name="font">
+        <font>
+         <family>Courier New</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>00000000</string>
+       </property>
+       <property name="maxLength">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonActivationKeys">
+       <property name="text">
+        <string>Add</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPlainTextEdit" name="plainTextEdit">
+     <property name="font">
+      <font>
+       <family>Courier New</family>
+      </font>
+     </property>
+     <property name="plainText">
+      <string>00000000-G5-0000000000
+0000000-I3-000000
+00000000-E1-0000000000
+00000000
+00000000
+</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <widget class="QPushButton" name="pushButtonSave">
+       <property name="text">
+        <string>Save</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonClear">
+       <property name="text">
+        <string>Clear</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButtonClear</sender>
+   <signal>clicked()</signal>
+   <receiver>plainTextEdit</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>245</x>
+     <y>338</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>229</x>
+     <y>252</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
